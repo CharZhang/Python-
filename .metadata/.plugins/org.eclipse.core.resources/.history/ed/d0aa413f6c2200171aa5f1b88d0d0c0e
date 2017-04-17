@@ -1,0 +1,28 @@
+#coding:utf-8
+
+
+class HtmlOutputer(object):
+    def __init__(self):
+        self.datas=[]
+        pass
+    def collect_data(self,data):#提取数据
+        if data is None:
+            return
+        self.datas.append(data)
+    def output_html(self):
+        fout = open('抓取百度百科.txt','w')
+        fout.write("<html>")
+        fout.write('<meta charset=\'utf-8\'>')
+        fout.write("<head></head>")
+        fout.write("<body>")
+        fout.write("<table style='border:1px'>")
+        for data in self.datas:
+            fout.write("<tr>")
+            fout.write("<td>%s</td>% data['url']")
+            fout.write("<td>%s</td>% data['title']")
+            fout.write("<td>%s</td>% data['summary']")
+            fout.write("</tr>")
+        fout.write("</table>")
+        fout.write("</body>")
+        fout.write("</html>")
+        fout.close()

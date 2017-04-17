@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Py/src/baike_spider/鎶撳彇鐧惧害鐧剧.txt&apos;" deleteContents="false" description="Delete resource &apos;Py/src/baike_spider/鎶撳彇鐧惧害鐧剧.txt&apos;" element1="/Py/src/baike_spider/鎶撳彇鐧惧害鐧剧.txt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1492323511751"/>&#x0A;<refactoring comment="Delete resource &apos;Py/src/baike_spider/insert_table.py&apos;" deleteContents="false" description="Delete resource &apos;Py/src/baike_spider/insert_table.py&apos;" element1="/Py/src/baike_spider/insert_table.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1492390935674"/>
+</session>

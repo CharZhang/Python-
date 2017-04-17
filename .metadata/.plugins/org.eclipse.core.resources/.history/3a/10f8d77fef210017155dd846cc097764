@@ -1,0 +1,6 @@
+#coding:utf-8
+
+class UrlManager(object):
+   def add_new_url(self):
+
+

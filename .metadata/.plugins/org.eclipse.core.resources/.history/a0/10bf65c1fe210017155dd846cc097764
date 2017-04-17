@@ -1,0 +1,17 @@
+#coding:utf-8
+import urllib2
+import cookielib
+from bs4 import BeautifulSoup
+from setuptools.ssl_support import opener_for
+from test.test_bs4 import soup
+
+url ="http://www.baidu.com"
+
+print '第一种方法'
+response1  = urllib2.urlopen(url)
+soup = BeautifulSoup(response1,'html.parser',from_encoding='utf-8')
+soup.find('a')
+print response1.getcode()
+print len(response1.read())
+
+

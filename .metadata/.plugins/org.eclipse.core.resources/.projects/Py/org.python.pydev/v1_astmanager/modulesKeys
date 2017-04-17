@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+baike_spider.__init__|E:\python\Py\src\baike_spider\__init__.py
+baike_spider.html_downloader|E:\python\Py\src\baike_spider\html_downloader.py
+baike_spider.html_outputer|E:\python\Py\src\baike_spider\html_outputer.py
+baike_spider.html_parser|E:\python\Py\src\baike_spider\html_parser.py
+baike_spider.spider_main|E:\python\Py\src\baike_spider\spider_main.py
+baike_spider.url_manager|E:\python\Py\src\baike_spider\url_manager.py
+test.__init__|E:\python\Py\src\test\__init__.py
+test.test_bs4|E:\python\Py\src\test\test_bs4.py
+test.test_urllib2|E:\python\Py\src\test\test_urllib2.py

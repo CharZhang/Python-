@@ -1,0 +1,16 @@
+#coding:utf-8
+import urllib2
+
+
+class HtmlDowanloader(object):
+    
+    def download(self,url):
+        if url is None:
+            return None
+        params = urllib.urlencode([('input_text', '重庆'), ('input_text', '南京')])
+        response=urllib2.urlopen(url)
+        if response.getcode()!=200:
+            
+            return None
+        return response.read()
+        

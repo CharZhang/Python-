@@ -1,0 +1,32 @@
+#coding:utf-8
+import urllib2
+import cookielib
+from bs4 import BeautifulSoup
+from setuptools.ssl_support import opener_for
+from test.test_bs4 import soup
+url ="http://www.baidu.com"
+print '第一种方法'
+response1  = urllib2.urlopen(url)
+print response1.getcode()
+print len(response1.read())
+
+print '第二种方法'
+
+request = urllib2.Request(url)
+request.add_header("user-agent", "Mozilla/5.0")
+result = urllib2.urlopen(request)
+
+print result.getcode()
+print len(result.read())
+
+print '第三种方法'
+c = cookielib.CookieJar()
+opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(c))
+urllib2.install_opener(opener)
+result2 = urllib2.urlopen(url)
+link = soup.find('a',class_='manv')
+print result2.getcode()
+print len(result2.read())
+print c
+
+

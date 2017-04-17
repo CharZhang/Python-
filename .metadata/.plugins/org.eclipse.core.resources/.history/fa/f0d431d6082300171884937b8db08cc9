@@ -1,0 +1,4 @@
+#ecoding:utf-8
+
+def connectDB(self):
+     host="localhost"

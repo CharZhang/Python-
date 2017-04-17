@@ -1,0 +1,25 @@
+#coding:utf-8
+import sys
+     
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+
+
+class HtmlOutputer(object):
+    def __init__(self):
+        self.datas=[]
+        pass
+    def collect_data(self,data):#提取数据
+        if data is None:
+            return
+        self.datas.append(data)
+    def output_html(self):
+        fout = open('baike.txt','w')
+       
+        for data in self.datas:
+            fout.write(data['title'])
+            print data['title']
+            fout.write(data['url'])
+            fout.write(data['summary'])
+            
+        fout.close()

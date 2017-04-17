@@ -1,0 +1,4 @@
+#coding:utf-8
+import urllib2
+url ="http://www.baidu.com"
+print '第一种方法'

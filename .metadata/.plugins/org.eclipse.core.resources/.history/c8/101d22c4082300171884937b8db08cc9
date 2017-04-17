@@ -1,0 +1,2 @@
+#ecoding:utf-8
+def connectDB(self):

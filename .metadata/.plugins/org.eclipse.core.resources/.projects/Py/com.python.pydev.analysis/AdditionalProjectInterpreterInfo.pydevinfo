@@ -1,0 +1,57 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\python\.metadata\.plugins\org.eclipse.core.resources\.projects\Py\com.python.pydev.analysis\v2_indexcache
+baike_spider.html_outputer|1492397262680890000|E:\python\Py\src\baike_spider\html_outputer.py
+test.test_urllib2|1492394985121274000|E:\python\Py\src\test\test_urllib2.py
+baike_spider.url_manager|1492321849071230000|E:\python\Py\src\baike_spider\url_manager.py
+baike_spider.html_downloader|1492396802915215000|E:\python\Py\src\baike_spider\html_downloader.py
+test.__init__|1492251313211766000|E:\python\Py\src\test\__init__.py
+baike_spider.__init__|1492253650351503000|E:\python\Py\src\baike_spider\__init__.py
+test.test_bs4|1492275127355648000|E:\python\Py\src\test\test_bs4.py
+baike_spider.spider_main|1492397862153442000|E:\python\Py\src\baike_spider\spider_main.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+7=UrlManager
+3=baike_spider.html_outputer
+4=test.test_urllib2
+10=HtmlOutputer.__init__
+13=UrlManager.__init__
+2=baike_spider.html_downloader
+11=HtmlDowanloader
+9=SpiderMain
+6=baike_spider.url_manager
+12=SpiderMain.__init__
+1=test.test_bs4
+5=baike_spider.spider_main
+8=HtmlOutputer
+-- END DICTIONARY
+-- START TREE 1
+10
+htm|3|html_doc!11@HtmlDowanloader!17@HtmlOutputer!25@
+ink|1|ink!35@
+lin|3|link_node2!11@links!11@link_node!11@
+obj|1|obj_spider!43@
+par|1|params!35@
+res|1|response1!35@
+roo|1|root_url!43@
+sou|2|soup!11@soup!35@
+spi|1|SpiderMain!41@
+url|2|UrlManager!49@url!35@
+-- END TREE
+-- START TREE 2
+13
+__i|3|__init__!7&50@__init__!8&26@__init__!9&42@
+add|2|add_new_url!7&50@add_new_urls!7&50@
+col|1|collect_data!8&26@
+cra|1|craw!9&42@
+dat|1|datas!10&27@
+dow|2|download!11&18@downloader!12&43@
+get|1|get_new_url!7&50@
+has|1|has_new_url!7&50@
+new|1|new_urls!13&51@
+old|1|old_urls!13&51@
+out|2|outputer!12&43@output_html!8&26@
+par|1|parser!12&43@
+url|1|urls!12&43@
+-- END TREE
